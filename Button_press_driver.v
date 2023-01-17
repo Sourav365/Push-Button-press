@@ -31,8 +31,8 @@ module button_press(
         q2b=0;
         
     /*
-     * Create slow clock of 250mSec=4Hz. 
-     * No of cycle=0.5*(1MHz/4Hz)=125,000
+     * Create slow clock of 2.50mSec=400Hz. 
+     * No of cycle=0.5*(100MHz/400Hz)=125,000
      */
     reg [16:0]count=0;	//Counter
     reg clk_slow=0;	//Output of slow clock
